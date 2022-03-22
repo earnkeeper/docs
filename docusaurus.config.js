@@ -23,8 +23,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/earnkeeper/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -45,9 +44,15 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'protocol',
+            docId: 'user-guide/welcome',
             position: 'left',
-            label: 'Protocol',
+            label: 'User Guide',
+          },
+          {
+            type: 'doc',
+            docId: 'developer/welcome',
+            position: 'left',
+            label: 'Developer',
           },
           {
             href: 'https://github.com/earnkeeper/ekp-sdk',
@@ -63,8 +68,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Protocol',
-                to: '/docs/protocol',
+                label: 'User Guide',
+                to: '/docs/user-guide/welcome',
+              },
+              {
+                label: 'Developer',
+                to: '/docs/developer/welcome',
               },
             ],
           },
