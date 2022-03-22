@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Welcome 👋
 
 This space describes the Earn Keeper Plugin protocol, its intended for developers that would like to integrate to EarnKeeper.io without using our Node.js SDK.&#x20;
