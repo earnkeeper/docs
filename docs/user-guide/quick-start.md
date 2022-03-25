@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Quick Start
 
 New to Earn Keeper and want a quick intro? You have landed in the right place!
