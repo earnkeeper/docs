@@ -10,7 +10,7 @@ const config = {
   tagline: "Play To Earn Tools",
   url: "https://developers.earnkeeper.io",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "earnkeeper", // Usually your GitHub org/user name.
