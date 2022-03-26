@@ -2,7 +2,6 @@
 sidebar_position: 2
 ---
 
-
 # Plugin Details
 
 When you click on a plugin, a popup will open showing more information about the plugin, and allow you to install it.

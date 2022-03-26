@@ -1,16 +1,18 @@
 ---
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 # Filtering
 
-To the left of the plugin list, is a list of filters to reduce the number of plugins shown. If you are on mobile, click the small hamburger menu above and to the left of the plugin list to see the filters.
+To the left of the plugin list, is a list of filters to reduce the number of plugins shown. 
+
+If you are on mobile, click the small hamburger menu above and to the left of the plugin list to see the filters.
 
 You can filter the list by the following fields:
 
 ### Installed
 
-By default all plugins are shown, use this filter to show only plugins you have installed (Yes) or plugins that you have not yet installed (No).
+By default all plugins are shown, use this filter to show only plugins you have installed (`Yes`) or plugins that you have not yet installed (`No`).
 
 ### Games
 

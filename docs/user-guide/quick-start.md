@@ -19,58 +19,52 @@ Click the Tool Market image in the middle of the page.
 
 This one 👇
 
-TODO image
+![Tool Market Page](/img/user-guide/tool-market-page.svg)
 
 Here are all the plugins we have on the platform! Depending on when you are reading this, there might be a few of them or many hundreds!
 
-Want to know more about a plugin is? [Read about it here](./plugins.md).
+Want to read more about the Tool Market? [Read about it here](././tool-market/plugin-list.md).
 
 ### Install a Plugin
 
 Use the search bar to search for Splinterlands.
 
-
 Click the Splinterlands title of the plugin to install it
 
-Right here 👇
-
-TODO image
-
-
+![Install from Tool Market](/img/user-guide/install-from-tool-market.svg)
 
 Read the popup, important information there, and connect your wallet
 
+![Install Wallet Prompt](/img/user-guide/install-wallet-prompt.svg)
 
-Wait for the plugin to be installed, shouldn't take long
+Wait for the plugin to be installed, it shouldn't take long.
 
 Now click the Splinterlands plugin title again to be taken to the Splinterlands game page
 
 ### Explore a Game
 
-You are looking at the live Splinterlands marketplace, showing the cheapest splinterlands cards at the top
+You are looking at the live Splinterlands marketplace, showing the cheapest splinterlands cards at the top.
 
+<!-- TODO Image -->
+<img src="/img/placeholder.svg" alt="placeholder" width="120" style={{marginBottom: 40, marginTop: 20, marginLeft: 20}}/>
 
 Click the Win Rate column (twice) to change the order of the table, with the cards with the best win rate at the top. Some of them may be expensive!
 
 Click the Splinterlands menu bar at the top (or under the hamburger menu if you are on mobile)
 
-This one 👇
-
-TODO image
-
+<!-- TODO Image -->
+<img src="/img/placeholder.svg" alt="placeholder" width="120" style={{marginBottom: 40, marginTop: 20, marginLeft: 20}}/>
 
 Click Battle Planner, this page lets you enter the details of your next battle, and plan which deck you will use
 
 Leave the Player Name blank for now, change Mana Cap to 20 and click Save
 
-
 Wait for the results to update, and presto! Here are the decks that have the best win rates for 20 Mana Cap battles in all leagues
 
 It should look like this 👇
 
-
-TODO image
-
+<!-- TODO Image -->
+<img src="/img/placeholder.svg" alt="placeholder" width="120" style={{marginBottom: 40, marginTop: 20, marginLeft: 20}}/>
 
 If you would like to filter the list to only show the decks you have the cards to fill, then fill in your user name and click Save again
 
