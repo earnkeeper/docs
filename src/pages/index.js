@@ -11,10 +11,14 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <img src='/img/logo.png' width={120}></img>
+        <h6 className="hero__subtitle">Welcome to the Earn Keeper Docs. </h6>
         <div className={styles.buttons}>
-
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/user-guide/welcome">
+             📙 Get Started Here
+          </Link>
         </div>
       </div>
     </header>
@@ -28,9 +32,9 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
+      {/* <main>
         <HomepageFeatures />
-      </main>
+      </main> */}
     </Layout>
   );
 }
