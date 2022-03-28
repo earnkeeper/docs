@@ -45,15 +45,19 @@ Now click the Splinterlands plugin title again to be taken to the Splinterlands 
 
 You are looking at the live Splinterlands marketplace, showing the cheapest splinterlands cards at the top.
 
-<!-- TODO Image -->
-<img src="/img/placeholder.svg" alt="placeholder" width="120" style={{marginBottom: 40, marginTop: 20, marginLeft: 20}}/>
+![Splinterlands Market](/img/user-guide/splinterlands-market.png)
 
 Click the Win Rate column (twice) to change the order of the table, with the cards with the best win rate at the top. Some of them may be expensive!
 
+Click the Grid icon to view the list in Grid View.
+
+![Grid Table Select](/img/user-guide/grid-table-select.svg)
+
+![Splinterlands Market Grid](/img/user-guide/splinterlands-market-grid.png)
+
 Click the Splinterlands menu bar at the top (or under the hamburger menu if you are on mobile)
 
-<!-- TODO Image -->
-<img src="/img/placeholder.svg" alt="placeholder" width="120" style={{marginBottom: 40, marginTop: 20, marginLeft: 20}}/>
+![Splinterlands Menu](/img/user-guide/splinterlands-menu.png)
 
 Click Battle Planner, this page lets you enter the details of your next battle, and plan which deck you will use
 
@@ -63,8 +67,11 @@ Wait for the results to update, and presto! Here are the decks that have the bes
 
 It should look like this 👇
 
-<!-- TODO Image -->
-<img src="/img/placeholder.svg" alt="placeholder" width="120" style={{marginBottom: 40, marginTop: 20, marginLeft: 20}}/>
+![Splinterlands Battle Planner](/img/user-guide/splinterlands-battle-planner.png)
+
+Click on a row to view the cards you should use in your battle.
+
+![Splinterlands Battle Planner Team](/img/user-guide/splinterlands-battle-planner-team.png)
 
 If you would like to filter the list to only show the decks you have the cards to fill, then fill in your user name and click Save again
 
@@ -74,11 +81,11 @@ Don't like the pesky advert at the top of the page?
 
 Want to use more than the last 1 day of data for your Battle Planner? 
 
-Click the Account link in the menu, and follow instructions here to subscribe
+Click the Account link in the menu, and [follow the instructions here](./account/subscribe.md) to subscribe.
 
 ### Join the community
 
-Want to get involved in the community and talk about your favourite game? Join our discord here
+Want to get involved in the community and talk about your favourite game? [Join our discord here](https://discord.gg/92EMAWVrrn)
 
 See you there!
 
