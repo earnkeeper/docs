@@ -12,7 +12,7 @@ Developers can add their plugins to the market, and users can search the market 
 
 Want to learn more about plugins and why they exist? 
 
-[Check out our page on them here](./plugins.md).
+[Check out our page on them here](../plugins.md).
 
 Each plugin in the market has an image, a title and short description. Like below 👇.
 

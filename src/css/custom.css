@@ -23,7 +23,6 @@
   background-color: #18191a;
 }
 
-
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #f76d00;
@@ -56,4 +55,12 @@
 
 [data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.theme-doc-sidebar-item-link {
+  margin-top: 1rem !important;
+}
+
+.theme-doc-sidebar-item-category {
+  margin-top: 1rem !important;
 }

@@ -22,12 +22,12 @@ Developers benefit from a great experience through our sdk and hosting, and shar
 
 If you are a Premium Subscriber, post your question in the `#subscribers` channel, we will get back to you ASAP.
 
-Subscribed and not seeing the Premium Subscriber? [Make sure to follow the steps here](./subscribe/join-discord).
+Subscribed and not seeing the `#subscribers` channel? [Follow the steps here to link your wallet to discord](./subscribe/link-discord).
 
 ### Developer?
 
 Are you a developer and want to be involved? 
 
-Check out our [developer documentation](../developer/welcome.md), and our [whitepaper](../whitepaper/whitepaper.md) for what we are all about.
+Check out our [developer documentation](../developer/welcome.md), and our [whitepaper](https://docs.earnkeeper.io/whitepaper) for what we are all about.
 
 Join the `#dev-talk` channel on our [discord](https://discord.gg/RHnnWBAkes) and get in touch!

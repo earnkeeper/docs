@@ -81,7 +81,7 @@ Don't like the pesky advert at the top of the page?
 
 Want to use more than the last 1 day of data for your Battle Planner? 
 
-Click the Account link in the menu, and [follow the instructions here](./account/subscribe.md) to subscribe.
+Click the Account link in the menu, and follow the instructions to subscribe.
 
 ### Join the community
 
