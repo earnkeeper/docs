@@ -24,4 +24,4 @@ The `Install` button will change to an `Open` button.
 
 Click the `Open` button to browse to the plugin's page.
 
-From here, each plugin page will offer different data, for more info [Check out our guides for select plugins here](./plugins/plugin-guides.md).
+From here, each plugin page will offer different data, for more info [Check out our guides for select plugins here](../plugin-guides.md).
