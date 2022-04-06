@@ -4,7 +4,7 @@ Display content surrounded by a round avatar background.
 
 ## Example UI
 
-![Avatar Example](/img/developer/ui-components/avatar.md)
+![Avatar Example](/img/developer/components/avatar-example.svg)
 
 ## Supported Properties
 
