@@ -1,12 +1,13 @@
 # Div
 
-## Supported Properties
+## Support Properties
 
 EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
 
-| Name     | Type           | Description |
-| -------- | -------------- | ----------- |
-| children | UiElement\[]   |             |
+| Name     | Type         | Description                                     |
+| -------- | ------------ | ----------------------------------------------- |
+| children | UiElement\[] | The list of components to render inside the row |
+
 
 ## Examples
 
