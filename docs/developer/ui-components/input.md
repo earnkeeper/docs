@@ -6,8 +6,8 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name                 | Type          | Description |
 | -------------------- | ------------- | ----------- |
-| <p>label?</p><p></p> | string \| Rpc |             |
-| <p>name</p><p></p>   | string        |             |
+| label?               | string \| Rpc |             |
+| name                 | string        |             |
 
 ## Examples
 

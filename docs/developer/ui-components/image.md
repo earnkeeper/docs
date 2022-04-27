@@ -8,7 +8,9 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | -------- | --------------------------- | ----------- |
 | rounded? | Rpc \| boolean              |             |
 | src      | UiElement \| RpcOrPrimitive |             |
-| size?    | UiElement\[]                |             |
+| size?    | string | number | Rpc       |             |
+| height?  | string | number | Rpc       |             |
+| width?   | string | number | Rpc       |             |
 
 ## Examples
 

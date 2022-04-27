@@ -6,8 +6,8 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name                        | Type          | Description |
 | --------------------------- | ------------- | ----------- |
-| <p>child</p><p></p>         | UiElement     |             |
-| <p>feedbackText?</p><p></p> | Rpc \| string |             |
+| child                       | UiElement     |             |
+| feedbackText?               | Rpc \| string |             |
 | label?                      | Rpc \| string |             |
 
 ## Examples
