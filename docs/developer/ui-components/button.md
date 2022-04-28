@@ -13,9 +13,9 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | isSubmit? | boolean        | Set to true to post the current form when this button is clicked.                                                                                           |
 | label     | string \| Rpc  | The label text to show inside the button. Ignored if content is set.                                                                                        |
 | outline   | boolean \| Rpc | Set to true to show the button in outline style.                                                                                                            |
-| color?     | string      |                                                         |
-| onClick?   | Rpc         |                                                         |
-| size       | 'sm' | 'lg' |                                                         |
+| color?     | string      |   This sets the color of the button                                                      |
+| onClick?   | Rpc         |    Action to perfrom on click event                                                     |
+| size       | 'sm' | 'lg' |    Size of the button                                                     |
 ## Example
 
 ### TypeScript

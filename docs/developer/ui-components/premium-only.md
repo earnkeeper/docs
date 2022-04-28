@@ -1,4 +1,4 @@
-# PremiumOnly
+# Premium Only
 
 ## See Also
 
@@ -8,8 +8,8 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name     | Type      | Description                                     |
 | -------- | --------- | ----------------------------------------------- |
-| child    | UiElement |                                                 |
-| preview? | UiElement | The list of components to render inside the row |
+| child    | UiElement | A collection of elements available to premium users                                                |
+| preview? | UiElement | Optional list of components to render inside the row TODO |
 
 ## Examples
 

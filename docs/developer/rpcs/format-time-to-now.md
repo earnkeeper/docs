@@ -6,7 +6,7 @@
 
 ## Parameters
 
-| Name        | Type                     | Description |
-| ---------   | -----------------------  | ----------- |
-| value       | number \| Rpc  |             |
+| Name        | Type                     | Description                                  |
+| ---------   | -----------------------  | ----------------------                       |
+| value       | number \| Rpc            |   Value of timestamp to be formated          |
 

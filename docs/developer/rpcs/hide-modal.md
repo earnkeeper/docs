@@ -6,7 +6,7 @@
 
 ## Parameters
 
-| Name        | Type                     | Description |
-| ---------   | -----------------------  | ----------- |
-| modalId     | string                   |             |
+| Name        | Type                     | Description                                    |
+| ---------   | -----------------------  | -----------------------------------            |
+| modalId     | string                   |  Text which identifies modal to hide           |
 

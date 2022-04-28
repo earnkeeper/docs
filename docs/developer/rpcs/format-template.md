@@ -6,8 +6,8 @@
 
 ## Parameters
 
-| Name        | Type                     | Description |
-| ---------   | -----------------------  | ----------- |
-| value       | string \| Rpc            |             |
-| scope       | Record<string, any>     |             |
+| Name        | Type                     | Description                                |
+| ---------   | -----------------------  | ------------------------------------------ |
+| value       | string \| Rpc            |  TODO                                      |
+| scope       | Record<string, any>      |  TODO                                      |
 

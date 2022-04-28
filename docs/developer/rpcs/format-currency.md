@@ -6,8 +6,8 @@
 
 ## Parameters
 
-| Name        | Type                     | Description |
-| ---------   | -----------------------  | ----------- |
-| value       | string \| number \| Rpc  |             |
-| fiatSymbol  | string \| Rpc            |             |
+| Name        | Type                     | Description                                          |
+| ---------   | -----------------------  | ----------------------------------------------       |
+| value       | string \| number \| Rpc  |  Monetary value in fiat currency                     |
+| fiatSymbol  | string \| Rpc            |  The symbol for fiat currency passed                 |
 

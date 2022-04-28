@@ -6,6 +6,6 @@
 
 ## Parameters
 
-| Name      | Type              | Description |
-| --------- | --------          | ----------- |
-| values    | Rpc               |             |
+| Name      | Type              | Description                              |
+| --------- | --------          | ---------------------------------------- |
+| values    | Rpc               |  Values to be counted by the RPC  TODO   |

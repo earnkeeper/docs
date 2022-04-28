@@ -6,8 +6,8 @@
 
 ## Parameters
 
-| Name             | Type                                 | Description |
-| ---------        | --------------------------------     | ----------- |
-| modalId          | string                               |             |
-| state            | string \| Rpc                        |             |
+| Name      | Type             | Description                                         |
+| --------- | -----------------| -----------                                         |
+| modalId   | string           | text which identifies the modal to show             |
+| state     | string \| Rpc    | describes the state of the modal   TODO             |
 

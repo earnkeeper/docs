@@ -6,7 +6,7 @@
 
 ## Parameters
 
-| Name        | Type                     | Description |
-| ---------   | -----------------------  | ----------- |
-| value       | string \| Rpc            |             |
+| Name        | Type                     | Description                                     |
+| ---------   | -----------------------  | -------------------------                       |
+| value       | string \| Rpc            | Value of mask address to be formated            |
 

@@ -6,6 +6,6 @@
 
 ## Parameters
 
-| Name          | Type                     | Description |
-| ---------     | -----------------------  | ----------- |
-| condition     | Rpc                      |             |
+| Name          | Type       | Description                                                           |
+| ---------     | -----------| -----------                                                           |
+| condition     | Rpc        | The RPC for a condition to evaluate using the not function  TODO        |

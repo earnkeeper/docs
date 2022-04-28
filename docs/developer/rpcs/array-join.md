@@ -6,7 +6,7 @@
 
 ## Parameters
 
-| Name      | Type              | Description |
-| --------- | --------          | ----------- |
-| array     | string[ ] \| Rpc   |
-| character | string            |
+| Name      | Type              | Description                                   |
+| --------- | --------          | --------------------------------              |
+| array     | string[ ] \| Rpc  | Array(s) to perform join operation            |
+| character | string            |   TODO                                        |

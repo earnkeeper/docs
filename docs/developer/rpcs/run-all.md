@@ -6,6 +6,6 @@
 
 ## Parameters
 
-| Name             | Type                       | Description |
-| ---------        | -----------------------    | ----------- |
-| rpcs             |  Rpc [ ]                      |             |
+| Name             | Type                       | Description                |
+| ---------        | -----------------------    | -------------------------- |
+| rpcs             |  Rpc [ ]                   | Identifies RPCs to run     |

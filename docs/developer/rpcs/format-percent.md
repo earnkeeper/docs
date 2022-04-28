@@ -6,7 +6,7 @@
 
 ## Parameters
 
-| Name        | Type                     | Description |
-| ---------   | -----------------------  | ----------- |
-| value       | number \| Rpc            |             |
+| Name        | Type                     | Description                                     |
+| ---------   | -----------------------  | ----------------------------------------------  |
+| value       | number \| Rpc            | Value to be formated as a percentage            |
 

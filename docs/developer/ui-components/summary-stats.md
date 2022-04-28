@@ -1,4 +1,4 @@
-# SummaryStats
+# Summary Stats
 
 ## Supported Properties
 
@@ -6,10 +6,10 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name   | Type                    | Description |
 | ------ | ----------------------- | ----------- |
-| title? | Rpc \| string           |             |
-| rows   | {    label: Rpc \| string; value: Rpc \| string \| number; }           |             |
-| label  | Rpc \| string           |             |
-| value  | Rpc \| string \| number |             |
+| title? | Rpc \| string           | Optional title for summary statistics element              |
+| rows   | {    label: Rpc \| string; value: Rpc \| string \| number; }           | rows to render in the summary statistics UI element   TODO         |
+| label  | Rpc \| string           |  Label for the UI element           |
+| value  | Rpc \| string \| number |  Value for summary statistics        |
 
 ## Examples
 

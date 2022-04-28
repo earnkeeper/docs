@@ -6,13 +6,13 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name             | Type                   | Description      |
 | ---------------- | ---------------------  | -----------      |
-| isClearable?     | boolean \| Rpc          |                  |
-| label?           | string \| Rpc           |                  |
-| name             | string                 |                  |
-| options          | (string \| Rpc)[  ]       |                  |
-| width?           |  number \| string \| Rpc |                  |
-| minWidth?        | number \| string \| Rpc  |                  |
-| maxWidth?        | number \| string \| Rpc  |                  |
+| isClearable?     | boolean \| Rpc         |                  |
+| label?           | string \| Rpc          | Optional label for the select element    |
+| name             | string                 |  Name for the select element                |
+| options          | (string \| Rpc)[  ]    | options to render in the select element                 |
+| width?           |  number \| string \| Rpc | Optional width for the select element                 |
+| minWidth?        | number \| string \| Rpc  | Optional minimun width for the select element               |
+| maxWidth?        | number \| string \| Rpc  | Optional maximum width for the select element                 |
 
 ## Examples
 

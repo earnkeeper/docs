@@ -6,7 +6,7 @@
 
 ## Parameters
 
-| Name             | Type                                 | Description |
-| ---------        | --------------------------------     | ----------- |
-| values           | Rpc                               |             |
+| Name             | Type          | Description              |
+| ---------        | ------------- | -----------              |
+| values           | Rpc           |  Values to sum  TODO     |
 
