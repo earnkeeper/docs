@@ -11,9 +11,8 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | Name        | Type   | Description                                                      |
 | ----------- | ------ | ---------------------------------------------------------------- |
 | name\*      | string | The name of the form, used to store form results in client state |
-| schema\*    | any    | The JsonForms Schema for the form                                |
-| uischema\*  | any    | The JsonForms UI Schema for the form                             |
-| submitLabel | string | Label to use for the submit button of the form, default "Save"   |
+| size?       | |'sm'|'lg' |'xl'|'xxl'| '3xl'| '4xl'|'5xl'|'6xl'|'7xl'|'8xl'|'9xl'| Rpc; |  |
+
 
 ## Examples
 

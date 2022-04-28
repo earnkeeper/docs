@@ -4,10 +4,11 @@
 
 EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
 
-| Name     | Type           | Description |
-| -------- | -------------- | ----------- |
-| header? | (string | Rpc)[]   |             |
-| body      | (string | number | Rpc)[] |             |
+| Name        | Type                      | Description |
+| ------------| ------------------------- | ----------- |
+| header?     | (string | Rpc)[]          |             |
+| body        | (string | number | Rpc)[] |             |
+| width?      | (string | number | Rpc)[] |             |
 
 ## Examples
 
