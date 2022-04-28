@@ -10,32 +10,32 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name               | Type               | Description                                                                                                               |
 | ------------------ | ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| busyWhen?            | Boolean | string | Rpc |                                      |
+| busyWhen?            | boolean | string | Rpc |                                      |
 | columns\*            | DatatableColumn\[  ]      | The list of column definitions to use for the table, see below for the specification                                      |
 | data\*               | any[  ]\| Rpc            | The data to display in the table, as a reference to locally stored data, see the Data Specification section for more info |
 | defaultSortAsc?      | boolean                 | Set this to false if you want the table data to be sorted in DESC order.                                                  |
 | defaultSortFieldId?  | string                  | Sets the a column to be pre sorted and corresponds to the a column definition id.                                         |
 | defaultView?         | DatatableView \|Readonly<{ xs?: DatatableView; sm?: DatatableView; md?: DatatableView; lg?: DatatableView; xl?: DatatableView; xxl?: DatatableView;}> |           |
-| dense?               | Boolean     |                                                    |
+| dense?               | boolean     |                                                    |
 | filters?             | FilterSchemaDto[  ]      | Shows a list of filters above the table                                                                                     |
 | gridView?            | { tileWidth?: number[  ]; tile: UiElement }     |                                                                                         |
-| highlightOnHover?    | Boolean    |                                                  |
-| noTableHead?         | Boolean    |                                                  |
+| highlightOnHover?    | boolean    |                                                  |
+| noTableHead?         | boolean    |                                                  |
 | onRowClicked?        | Rpc        |                                                  |
-| pagination?           | Boolean                 | Enable pagination with defaults.                                                                                          |
+| pagination?           | boolean                 | Enable pagination with defaults.                                                                                          |
 | paginationPerPage?  | number                  | The default rows per page to use when the table initially loads.                                                          |
-| pointerOnHover?     | Boolean                    |                                                  |
-| showExport?         | Boolean                    |                                                  |
-| showLastUpdated?    | Boolean                    |                                                  |
-| stripe?             | Boolean                    |                                                  |
+| pointerOnHover?     | boolean                    |                                                  |
+| showExport?         | boolean                    |                                                  |
+| showLastUpdated?    | boolean                    |                                                  |
+| stripe?             | boolean                    |                                                  |
 
 ### DatatableColumn
 
 | Name       | Type                | Description                                                                                             |
 | ---------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
 | cell?        | UiElement           | Replace the column cell with a custom ui element, with the current row as context                       |
-| center?       | Boolean           |      |
-| compact?      | Boolean           |      |
+| center?       | boolean           |      |
+| compact?      | boolean           |      |
 | format?       | string \| Rpc      |      |
 | grow?         | number            | `flex-grow` of the column. This is useful if you want a column to take up more width than its relatives      |
 | hide?         | string \| number   |      |
