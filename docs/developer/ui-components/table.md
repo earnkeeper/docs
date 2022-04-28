@@ -6,9 +6,9 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name        | Type                      | Description |
 | ------------| ------------------------- | ----------- |
-| header?     | (string | Rpc)[]          |             |
-| body        | (string | number | Rpc)[] |             |
-| width?      | (string | number | Rpc)[] |             |
+| header?     | (string \| Rpc)[  ]          |             |
+| body        | (string \| number \| Rpc)[  ] |             |
+| width?      | (string \| number \| Rpc)[  ] |             |
 
 ## Examples
 

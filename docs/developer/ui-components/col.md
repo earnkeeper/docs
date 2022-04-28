@@ -6,4 +6,4 @@ Wrap components in a `Col` reactstrap tag.
 
 | Name     | Type         | Description                                  |
 | -------- | ------------ | -------------------------------------------- |
-| children | UiElement\[] | The list of controls to wrap in this control |
+| children | UiElement\[  ] | The list of controls to wrap in this control |

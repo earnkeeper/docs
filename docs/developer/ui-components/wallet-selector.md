@@ -8,7 +8,7 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name        | Type            | Description |
 | ----------- | --------------- | ----------- |
-| hideChains? | URpc \| boolean |             |
+| hideChains? | Rpc \| boolean |             |
 
 ## Examples
 

@@ -11,7 +11,7 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | Name     | Type         | Description                                       |
 | -------- | ------------ | ------------------------------------------------- |
 | title    | string       | The card title                                    |
-| children | UiElement\[] | The list of components to render in the card body |
+| children | UiElement\[  ] | The list of components to render in the card body |
 
 ## Examples
 

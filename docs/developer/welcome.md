@@ -37,7 +37,7 @@ EarnKeeper.io ships with a list of pre-approved plugins. The user can add more p
 
 When the user adds a plugin, the client will initiate a connection to the server, once the connection has been established, the server will emit the UpdateMetadata event, containing metadata such as the pluginId and pluginName.
 
-![](/img/protocol/1.png)
+![  ](/img/protocol/1.png)
 
 The client will now show the state of the plugin as Connected to the user.
 
@@ -49,7 +49,7 @@ The client does not expect a response to this event. The server can process the 
 
 A typical plugin will emit an AddLayer event at this point, containing menus and pages to be shown to the user.&#x20;
 
-![](/img/protocol/9.png)
+![  ](/img/protocol/9.png)
 
 Depending on the page the user is viewing, the server may emit further Add Layer events containing data to be stored at the client and used by the UI.
 
@@ -63,7 +63,7 @@ Layers allow multiple plugins to interact with the same collections of data at t
 
 An example layer could look like this:
 
-![](/img/protocol/12.png)
+![  ](/img/protocol/12.png)
 
 This event will add a layer to the client with id "portfolio-token-balance-layer".
 
@@ -79,15 +79,15 @@ Each document in the "pages" collection will be rendered as a page when the user
 
 An example event for setting the plugin menu structure is:
 
-![](/img/protocol/7.png)
+![  ](/img/protocol/7.png)
 
 This will render the following menu:
 
-![](/img/protocol/5.png)
+![  ](/img/protocol/5.png)
 
 The associated pages for these menu links could be emitted with the following event:
 
-![](/img/protocol/11.png)
+![  ](/img/protocol/11.png)
 
 The element field of each "pages" document contains the UI schema for the page. The UI schema consists of a root component, in this case a "Container", which in turn has a children field containing further components.
 

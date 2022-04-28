@@ -8,7 +8,7 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name     | Type         | Description                                     |
 | -------- | ------------ | ----------------------------------------------- |
-| children | UiElement\[] | The list of components to render inside the row |
+| children | UiElement\[  ] | The list of components to render inside the row |
 
 ## Examples
 

@@ -40,7 +40,7 @@ We did this ourselves with <https://cryptozoon.earnkeeper.io>, and here are the 
 
 ### Enhanced Market Place
 
-![](/img/whitepaper/0.png)
+![  ](/img/whitepaper/0.png)
 
 A market place designed for Play to Earn , including
 
@@ -51,7 +51,7 @@ A market place designed for Play to Earn , including
 
 ### Fantasy Mode
 
-![](/img/whitepaper/1.png)
+![  ](/img/whitepaper/1.png)
 
 A detailed team calculator, used before you buy, including:
 
@@ -61,7 +61,7 @@ A detailed team calculator, used before you buy, including:
 
 ### Team Listing
 
-![](/img/whitepaper/2.png)
+![  ](/img/whitepaper/2.png)
 
 A detailed view of your current position, including :
 
@@ -72,7 +72,7 @@ A detailed view of your current position, including :
 
 ### Global Game Data
 
-![](/img/whitepaper/3.png)
+![  ](/img/whitepaper/3.png)
 
 An overall view of the game economy, including :
 
@@ -98,7 +98,7 @@ We looked to expand into more games, but without playing the games, it is diffic
 
 Users of the EarnKeeper site will continue to receive the metrics we provided for CryptoZoon, and for many new games, that the EarnKeeper team and other developers are actually playing.
 
-![](/img/whitepaper/4.png)
+![  ](/img/whitepaper/4.png)
 
 All plugins will use a freemium model, where most metrics are shown publicly for free, and some metrics are available to users who pay a monthly subscription, or hold a Lifetime Access NFT.
 
@@ -139,7 +139,7 @@ The goals of this development effort are:
 
 The system architecture is as follows:
 
-![](/img/whitepaper/5.png)
+![  ](/img/whitepaper/5.png)
 
 Using [Yeoman](https://yeoman.io/) and [Werf](https://werf.io/), we provide a fully scaffolded application which is ready to be deployed to a fresh Digital Ocean (or any other provider) Kubernetes instance.
 
@@ -184,7 +184,7 @@ Further Reading:
 
 ## For Supporters - The NFT
 
-![](/img/whitepaper/6.png)
+![  ](/img/whitepaper/6.png)
 
 To raise funds to speed up development of features, plugins and the developer community, we are offering Lifetime Access NFTs to our users.
 
@@ -210,7 +210,7 @@ Revenue will be generated through a freemium model.
 
 The CryptoZoon tracker attracted **17,300** unique returning visitors to the site, **200,000** visitors in total.
 
-![](/img/whitepaper/7.png)
+![  ](/img/whitepaper/7.png)
 
 Some issues to solve from this period are:
 
@@ -221,7 +221,7 @@ To solve these, we have developed the Earn Keeper plugin system, which allows a 
 
 To incentivise other developers to contribute to Earn Keeper analytics, we will distribute the earnings of the site in the following ratio:
 
-![](/img/whitepaper/8.png)
+![  ](/img/whitepaper/8.png)
 
 ### Third Party Developers
 
