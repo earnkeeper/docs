@@ -4,6 +4,8 @@ Display a themed button, and configure its action on click
 
 ## Example Usage
 
+<https://earnkeeper.io/game/thetan-arena/market-buy>
+
 ## Supported Properties
 
 | Name      | Type           | Description                                                                                                                                         |
@@ -23,39 +25,12 @@ Display a themed button, and configure its action on click
 
 ### TypeScript
 
-#### All Properties (Label and Icon)
-
-Use the Label and Icon properties to simply show a left aligned icon and text inside the button.
-
-```javascript
-const component = Button({
-  busyWhen: isBusy("my_collection"),
-  className: "primary",
-  icon: "cil-check-circle",
-  isSubmit: true,
-  label: "Submit",
-  outline: false,
-});
-
-const json = {
-  _type: "Button",
-  props: {
-    busyWhen: '$..busy[?(@.id=="my_collection")]',
-    className: "primary",
-    icon: "cil-check-circle",
-    isSubmit: true,
-    label: "Submit",
-    outline: false,
-  },
-};
-```
-
 #### All Properties (Content)
 
 Use the content property to add any EK component as the child of the button. Use for complex button content.
 
 ```typescript
-const component = Button({
+Button({
   busyWhen: isBusy("my_collection"),
   className: "primary",
   content: Row({
@@ -70,48 +45,5 @@ const component = Button({
   }),
   isSubmit: true,
   outline: false,
-});
-
-const json = {
-  _type: "Button",
-  props: {
-    busyWhen: '$..busy[?(@.id=="my_collection")]',
-    className: "primary",
-    content: {
-      _type: "Row",
-      props: {
-        children: [
-          {
-            _type: "Col",
-            props: {
-              children: [
-                {
-                  _type: "Icon",
-                  props: {
-                    name: "cil-check-circle",
-                  },
-                },
-              ],
-            },
-          },
-          {
-            _type: "Col",
-            props: {
-              children: [
-                {
-                  _type: "Span",
-                  props: {
-                    content: "Submit",
-                  },
-                },
-              ],
-            },
-          },
-        ],
-      },
-    },
-    isSubmit: true,
-    outline: false,
-  },
-};
+  });
 ```

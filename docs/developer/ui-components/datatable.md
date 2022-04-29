@@ -4,6 +4,10 @@ React datatable with sorting, expandable rows and pagination.
 
 <https://react-data-table-component.netlify.app/>
 
+## Example Usage
+
+<https://earnkeeper.io/game/thetan-arena/market-buy>
+
 ## Supported Properties
 
 EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
@@ -16,18 +20,18 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | defaultSortAsc?     | boolean                                    | Set this to false if you want the table data to be sorted in DESC order.                                                                                             |
 | defaultSortFieldId? | string                                     | Sets the a column to be pre sorted and corresponds to the a column definition id.                                                                                    |
 | defaultView?        | string \| { [string]: string }             | Show `table` or `grid` view to the user by default, optionally specify default view by [bootstrap breakpoint](https://getbootstrap.com/docs/5.0/layout/breakpoints/) |
-| dense?              | boolean                                    | TODO                                                                                                                                                                 |
+| dense?              | boolean                                    | Compacts the row height. can be overridden via theming rows |
 | filters?            | FilterSchemaDto[ ]                         | Shows a list of filters above the table                                                                                                                              |
 | gridView?           | { tileWidth?: number[ ]; tile: UiElement } | TODO                                                                                                                                                                 |
-| highlightOnHover?   | boolean                                    | TODO                                                                                                                                                                 |
-| noTableHead?        | boolean                                    | TODO                                                                                                                                                                 |
-| onRowClicked?       | Rpc                                        | Set behaviour for onclick event                                                                                                                                      |
-| pagination?         | boolean                                    | Enable pagination with defaults.                                                                                                                                     |
+| highlightOnHover?   | boolean                                    | If rows are to be highlighted on hover|
+| noTableHead?        | boolean                                    | Hides the the sort columns and titles (TableHead).   |
+| onRowClicked?       | Rpc                                        | Callback to access the row, event on row click.      |
+| pagination?         | boolean                                    | Enable pagination with defaults. by default the total record set will be sliced depending on the page, rows per page  |
 | paginationPerPage?  | number                                     | The default rows per page to use when the table initially loads.                                                                                                     |
-| pointerOnHover?     | boolean                                    | TODO                                                                                                                                                                 |
+| pointerOnHover?     | boolean                                    |If rows show a point icon on hover   |
 | showExport?         | boolean                                    | Optional show exports link                                                                                                                                           |
 | showLastUpdated?    | boolean                                    | Show age for last update                                                                                                                                             |
-| stripe?             | boolean                                    | TODO                                                                                                                                                                 |
+| stripe?             | boolean                                    | Stripe/band color the odd rows|
 
 ### Datatable Column
 
@@ -35,8 +39,8 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | ----------- | ------------------- | ------------------------------------------------------------------------------------------------------- | --- |
 | cell?       | UiElement           | Replace the column cell with a custom ui element, with the current row as context                       |
 | center?     | boolean             | Optional center aligment                                                                                |
-| compact?    | boolean             | TODO                                                                                                    |
-| format?     | string \| Rpc       | TODO                                                                                                    |
+| compact?    | boolean             | Sets cell padding to 0 |
+| format?     | string \| Rpc       | Applies formatting to the selector e.g. row => moment(row.timestamp).format('lll') without changing the actual selector value |
 | grow?       | number              | `flex-grow` of the column. This is useful if you want a column to take up more width than its relatives |
 | hide?       | string \| number    | Option to show or hide column                                                                           |
 | id\*        | string              | Unique id for the column                                                                                |
@@ -69,7 +73,7 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name          | Type               | Description |
 | ------------- | ------------------ | ----------- |
-| DatatableView | 'grid' \| 'column' | TODO        |
+| DatatableView | string             | TODO        |
 
 ### Filter Options
 
@@ -77,61 +81,11 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | ------------ | ------------------------------------------------------ | ----------- |
 | FilterOption | string \| Readonly<{ label: string; query?: string; }> |             |
 
-## Examples
-
-### JSON
-
-```json
-{
-  "_type": "Datatable",
-  "props": {
-    "data": "$.rentedCritterzDocuments.*",
-    "columns": [
-      {
-        "id": "tokenId",
-        "sortable": true,
-        "value": "$.tokenId",
-        "cell": {
-          "_type": "Link",
-          "props": {
-            "content": {
-              "method": "template",
-              "params": [
-                "https://etherscan.io/token/0x47f75e8dd28df8d6e7c39ccda47026b0dca99043?a={{ tokenId }}",
-                {
-                  "tokenId": "$.tokenId"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "expiresIn",
-        "sortable": true,
-        "value": "$.expiryDate",
-        "format": {
-          "method": "formatTimeToNow",
-          "params": ["$.expiryDate"]
-        }
-      },
-      {
-        "id": "expiryDate",
-        "sortable": true,
-        "value": "$.expiryDate",
-        "format": {
-          "method": "formatDatetime",
-          "params": ["$.expiryDate"]
-        }
-      }
-    ]
-  }
-}
-```
+## Example
 
 ### TypeScript
 
-```javascript
+```typescript
 Datatable({
   data: `$.${RENTED_CRITTER_DOCUMENT}.*`,
   columns: [

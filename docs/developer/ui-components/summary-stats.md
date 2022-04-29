@@ -1,5 +1,9 @@
 # Summary Stats
 
+## Example Usage
+
+TODO
+
 ## Supported Properties
 
 EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
@@ -11,14 +15,10 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | label  | Rpc \| string           |  Label for the UI element           |
 | value  | Rpc \| string \| number |  Value for summary statistics        |
 
-## Examples
-
-### JSON
-
-```json
-```
+## Example
 
 ### TypeScript
 
-```javascript
+```typescript
+ TODO
 ```

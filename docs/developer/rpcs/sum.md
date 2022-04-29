@@ -9,4 +9,3 @@
 | Name             | Type          | Description              |
 | ---------        | ------------- | -----------              |
 | values           | Rpc           |  Values to sum  TODO     |
-

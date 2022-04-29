@@ -2,6 +2,10 @@
 
 Display a link to external or in site content. Renders as an HTML `<a>`
 
+## Example Usage
+
+TODO
+
 ## Supported Properties
 
 | Name          | Type          | Description                                                                          |
@@ -15,6 +19,6 @@ Display a link to external or in site content. Renders as an HTML `<a>`
 
 ### TypeScript
 
-```javascript
-
+```typescript
+    TODO
 ```

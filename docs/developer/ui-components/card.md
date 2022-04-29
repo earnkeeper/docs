@@ -6,6 +6,8 @@ Cards provide a flexible and extensible content container with multiple variants
 
 ## Example Usage
 
+<https://earnkeeper.io/game/splinterlands/marketplace>
+
 ## Supported Properties
 
 EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
@@ -15,32 +17,29 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | title    | string       | The card title                                                                                   |
 | children | UiElement\[] | The UiElements to render inside this the body of this control, same as React `children` property |
 
-## Examples
-
-### JSON
-
-```json
-{
-  "_type": "Card",
-  "props": {
-    "title": "An example title",
-    "children": [
-      {
-        "_type": "Span",
-        "props": {
-          "content": "An example body"
-        }
-      }
-    ]
-  }
-}
-```
+## Example
 
 ### TypeScript
 
-```javascript
+```typescript
 Card({
-  title: "Example title",
-  children: [Span({ content: "An Example Body" })],
-});
+className: 'mt-2',
+  children: [
+    StatsTable({
+      rows: [
+        {
+          name: 'Price',
+          value: formatCurrency(
+            '$.price',
+            '$.fiatSymbol',
+          ),
+        },
+        {
+          name: 'Level',
+          value: '$.level',
+        },
+      ],
+    }),
+  ],
+}),
 ```

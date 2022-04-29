@@ -1,5 +1,9 @@
 # Wallet Selector
 
+## Example Usage
+
+TODO
+
 ## See Also
 
 ## Supported Properties
@@ -10,14 +14,10 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | ----------- | --------------- | -----------                               |
 | hideChains? | Rpc \| boolean  | TODO Optional hide chains parameter           |
 
-## Examples
-
-### JSON
-
-```json
-```
+## Example
 
 ### TypeScript
 
-```javascript
+```Typescript
+TODO
 ```

@@ -1,5 +1,11 @@
 # Modal
 
+Popup page which is rendered on top of another page
+
+## Example Usage
+
+Click on any card from in the `Datatable` on this page <https://earnkeeper.io/game/splinterlands/marketplace>
+
 ## Supported Properties
 
 EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
@@ -18,16 +24,20 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | size?              | string \| Rpc  | Optional modal size                                                             |
 | wrapClassName?     | string \| Rpc  | Optional class wrapper for the modal                                            |
 
-## Examples
-
-### JSON
-
-```json
-
-```
+## Example
 
 ### TypeScript
 
-```javascript
-
+```typescript
+Modal({
+    id: DETAILS_MODAL_ID,
+    centered: true,
+    size: 'lg',
+    header: '$.name',
+    children: [
+      ModalBody({
+        children: []
+      }),
+    ],
+});
 ```

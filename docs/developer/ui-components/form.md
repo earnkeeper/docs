@@ -4,6 +4,10 @@ Display a form to the user to prompt for entry. The form value will be stored in
 
 Access it with `event.state.forms["FORM_NAME"]`
 
+## Example Usage
+
+<https://earnkeeper.io/game/splinterlands/cards>
+
 ## Supported Properties
 
 | Name      | Type          | Description                                                                                                |
@@ -13,10 +17,45 @@ Access it with `event.state.forms["FORM_NAME"]`
 | onSubmit? | boolean       | Run an RPC when submitting the form                                                                        |
 | schema    | any           | The [JsonSchema](https://json-schema.org/) describing the form value                                       |
 
-## Examples
+## Example
 
 ### TypeScript
 
-```javascript
-
+```typescript
+Form({
+    name: 'collection',
+    schema: {
+      type: 'object',
+      properties: {
+        playerName: 'string',
+      },
+      default: DEFAULT_COLLECTION_FORM,
+    },
+    children: [
+      Row({
+        className: 'mb-1',
+        children: [
+          Col({
+            className: 'col-12 col-md-auto',
+            children: [
+              Input({
+                label: 'Player Name',
+                name: 'playerName',
+              }),
+            ],
+          }),
+          Col({
+            className: 'col-12 col-md-auto my-auto',
+            children: [
+              Button({
+                label: 'View',
+                isSubmit: true,
+                busyWhen: isBusy(collection(CollectionDocument)),
+              }),
+            ],
+          }),
+        ],
+      }),
+    ],
+});
 ```

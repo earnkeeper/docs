@@ -1,6 +1,8 @@
 # Price Link
 
-## See Also
+## Example Usage
+
+TODO
 
 ## Supported Properties
 
@@ -12,14 +14,10 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | href? | Rpc \| string | Optional URL for the the price   TODO              |
 | label | Rpc \| string | The list of components to render inside the row |
 
-## Examples
-
-### JSON
-
-```json
-```
+## Example
 
 ### TypeScript
 
-```javascript
+```typescript
+    TODO
 ```

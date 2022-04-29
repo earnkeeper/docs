@@ -2,6 +2,10 @@
 
 Display an image. Renders as html `<image>` tag
 
+## Example Usage
+
+<https://earnkeeper.io/game/thetan-arena/boxes>
+
 ## Supported Properties
 
 | Name     | Type                    | Description                                                                             |
@@ -12,10 +16,14 @@ Display an image. Renders as html `<image>` tag
 | src      | string \| Rpc           | The url to the image                                                                    |
 | width?   | string \| number \| Rpc | Width of the image in pixels, or css string                                             |
 
-## Examples
+## Example
 
 ### TypeScript
 
-```javascript
+```typescript
+Image({
+    className: 'card-img-top',
+    src: '$.cardByLevelUrl',
+}),
 
 ```

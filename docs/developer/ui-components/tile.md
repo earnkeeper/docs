@@ -1,5 +1,7 @@
 # Tile
 
+## Example Usage
+
 ## Supported Properties
 
 EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
@@ -13,14 +15,9 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | subTitle? | Rpc \| UiElement \| string | Optional sub title for the UI element            |
 | title?    | Rpc \| UiElement \| string | Optional sub title for tile element              |
 
-## Examples
-
-### JSON
-
-```json
-```
+## Example
 
 ### TypeScript
 
-```javascript
+```typescript
 ```

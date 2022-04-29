@@ -1,10 +1,10 @@
 # Input
 
-Display an Input to the user. 
+Display an Input to the user.
 
 ## Example usage
 
-https://earnkeeper.io/game/splinterlands/planner
+<https://earnkeeper.io/game/splinterlands/planner>
 
 ## Supported Properties
 
@@ -13,16 +13,13 @@ https://earnkeeper.io/game/splinterlands/planner
 | label? | string \| Rpc | The label to display above the input |
 | name   | string        | Name for the input UI element        |
 
-## Examples
-
-### JSON
-
-```json
-
-```
+## Example
 
 ### TypeScript
 
-```javascript
-
+```typescript
+Input({
+    label: 'Player Name',
+    name: 'playerName',
+}),
 ```
