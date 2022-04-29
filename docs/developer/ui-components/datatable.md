@@ -10,8 +10,6 @@ React datatable with sorting, expandable rows and pagination.
 
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
 | Name                | Type                                       | Description                                                                                                                                                          |
 | ------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
 | busyWhen?           | boolean                                    | string                                                                                                                                                               | Rpc |     |
@@ -81,7 +79,7 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | ------------ | ------------------------------------------------------ | ----------- |
 | FilterOption | string \| Readonly<{ label: string; query?: string; }> |             |
 
-## Example
+## Examples
 
 ### TypeScript
 

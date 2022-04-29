@@ -1,10 +1,6 @@
 # Modal Body
 
-Wrapper for element to display in the body section of a `Modal` UI component.
-
-## Example Usage
-
-Click on any card from in the `Datatable` on this page <https://earnkeeper.io/game/splinterlands/marketplace>
+Display body content inside a `Modal`.
 
 ## Supported Properties
 

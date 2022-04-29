@@ -7,8 +7,6 @@ Click any element in the `Datatable` on this page
 
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
 | Name        | Type                          | Description                              |
 | ------------| -------------------------     | -----------                              |
 | header?     | (string \| Rpc)[]           |  Optional header for the table           |

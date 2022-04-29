@@ -1,30 +1,26 @@
 # Modal
 
-Popup page which is rendered on top of another page
-
-## Example Usage
-
-Click on any card from in the `Datatable` on this page <https://earnkeeper.io/game/splinterlands/marketplace>
+Display a modal popup to the user.
 
 ## Supported Properties
-
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
 
 | Name               | Type           | Description                                                                     |
 | ------------------ | -------------- | ------------------------------------------------------------------------------- |
 | id                 | string         | Unique modal identifier                                                         |
-| backdrop?          | boolean \| Rpc | TODO                                                                            |
-| backdropClassName? | string \| Rpc  | TODO                                                                            |
-| centered?          | boolean \| Rpc | Optional center alignment for the modal                                         |
+| backdrop?          | boolean \| Rpc | Show a backdrop behind the modal                                                |
+| backdropClassName? | string \| Rpc  | Add additional class names to the modal backdrop                                |
+| centered?          | boolean \| Rpc | Center the modal vertically on the page                                         |
 | children           | UiElement\[]   | The UiElements to render inside this control, same as React `children` property |
-| contentClassName?  | string \| Rpc  | Optional style definition for modal content                                     |
-| fade?              | boolean \| Rpc | Optional fade fade animation for the modal                                      |
-| modalClassName?    | string \| Rpc  | Optional modal class name for applying styles                                   |
-| scrollable?        | boolean \| Rpc | Optional scrollable switch for the modal                                        |
-| size?              | string \| Rpc  | Optional modal size                                                             |
-| wrapClassName?     | string \| Rpc  | Optional class wrapper for the modal                                            |
+| contentClassName?  | string \| Rpc  | Add additional class names to the modal content                                 |
+| fade?              | boolean \| Rpc | Add a fade in and fade out animation to the modal                               |
+| modalClassName?    | string \| Rpc  | Add additional class names to the modal itself                                  |
+| size?              | string \| Rpc  | Horizontal size of the modal, one of `sm`, `md`, `lg`                           |
 
+<<<<<<< HEAD
 ## Example
+=======
+## Examples
+>>>>>>> 6c257fd659ca77ea1eac62c9c9aeea0541adcd23
 
 ### TypeScript
 

@@ -1,20 +1,14 @@
 # Row
 
-UI component for specifying element(s) to include in a row
-
-## Example Usage
-
-<https://earnkeeper.io/game/splinterlands/cards>
+Wrap components in a [Bootstrap Row](https://getbootstrap.com/docs/5.0/layout/grid/).
 
 ## Supported Properties
-
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
 
 | Name     | Type         | Description                                                                     |
 | -------- | ------------ | ------------------------------------------------------------------------------- |
 | children | UiElement\[] | The UiElements to render inside this control, same as React `children` property |
 
-## Example
+## Examples
 
 ### TypeScript
 

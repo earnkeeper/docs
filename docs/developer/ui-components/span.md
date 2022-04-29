@@ -10,13 +10,11 @@ an inline UI component used to highlight part of a text
 
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
 | Name     | Type          | Description                                     |
 | -------- | ------------- | ----------------------------------------------- |
 | content? | Rpc \| string | The list of components to render inside the row |
 
-## Example
+## Examples
 
 ### TypeScript
 

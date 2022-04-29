@@ -8,12 +8,12 @@ Display an Input to the user.
 
 ## Supported Properties
 
-| Name   | Type          | Description                          |
-| ------ | ------------- | ------------------------------------ |
-| label? | string \| Rpc | The label to display above the input |
-| name   | string        | Name for the input UI element        |
+| Name   | Type          | Description                                             |
+| ------ | ------------- | ------------------------------------------------------- |
+| label? | string \| Rpc | The label to display above the input                    |
+| name   | string        | The name of the form property to update from this input |
 
-## Example
+## Examples
 
 ### TypeScript
 

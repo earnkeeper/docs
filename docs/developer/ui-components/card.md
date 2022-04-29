@@ -10,14 +10,12 @@ Cards provide a flexible and extensible content container with multiple variants
 
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
 | Name     | Type         | Description                                                                                      |
 | -------- | ------------ | ------------------------------------------------------------------------------------------------ |
 | title    | string       | The card title                                                                                   |
 | children | UiElement\[] | The UiElements to render inside this the body of this control, same as React `children` property |
 
-## Example
+## Examples
 
 ### TypeScript
 

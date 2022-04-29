@@ -1,14 +1,8 @@
 # Modal Header
 
-Header section for a modal UI component.
-
-## Example Usage
-
-Click on any card from in the `Datatable` on this page <https://earnkeeper.io/game/splinterlands/marketplace>
+Display footer content inside a `Modal`.
 
 ## Supported Properties
-
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
 
 | Name           | Type            | Description |
 | -------------- | --------------  | ----------- |
