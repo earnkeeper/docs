@@ -16,11 +16,7 @@ Display a modal popup to the user.
 | modalClassName?    | string \| Rpc  | Add additional class names to the modal itself                                  |
 | size?              | string \| Rpc  | Horizontal size of the modal, one of `sm`, `md`, `lg`                           |
 
-<<<<<<< HEAD
-## Example
-=======
 ## Examples
->>>>>>> 6c257fd659ca77ea1eac62c9c9aeea0541adcd23
 
 ### TypeScript
 

@@ -1,6 +1,6 @@
 # Div
 
-Wrap components in an html div.
+Wrap components in an html `Div`.
 
 ## Example Usage
 

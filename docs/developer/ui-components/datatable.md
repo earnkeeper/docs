@@ -11,7 +11,7 @@ React datatable with sorting, expandable rows and pagination.
 ## Supported Properties
 
 | Name                | Type                                       | Description                                                                                                                                                          |
-| ------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
+| ------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | busyWhen?           | boolean                                    | string                                                                                                                                                               | Rpc |     |
 | columns\*           | DatatableColumn\[ ]                        | The list of column definitions to use for the table, see below for the specification                                                                                 |
 | data\*              | any[ ]\| Rpc                               | The data to display in the table, as a reference to locally stored data, see the Data Specification section for more info                                            |
@@ -20,7 +20,7 @@ React datatable with sorting, expandable rows and pagination.
 | defaultView?        | string \| { [string]: string }             | Show `table` or `grid` view to the user by default, optionally specify default view by [bootstrap breakpoint](https://getbootstrap.com/docs/5.0/layout/breakpoints/) |
 | dense?              | boolean                                    | Compacts the row height. can be overridden via theming rows |
 | filters?            | FilterSchemaDto[ ]                         | Shows a list of filters above the table                                                                                                                              |
-| gridView?           | { tileWidth?: number[ ]; tile: UiElement } | TODO                                                                                                                                                                 |
+| gridView?           | { tileWidth?: number[ ]; tile: UiElement } | Elements to render in datatabe when in gridview|
 | highlightOnHover?   | boolean                                    | If rows are to be highlighted on hover|
 | noTableHead?        | boolean                                    | Hides the the sort columns and titles (TableHead).   |
 | onRowClicked?       | Rpc                                        | Callback to access the row, event on row click.      |
@@ -34,7 +34,7 @@ React datatable with sorting, expandable rows and pagination.
 ### Datatable Column
 
 | Name        | Type                | Description                                                                                             |
-| ----------- | ------------------- | ------------------------------------------------------------------------------------------------------- | --- |
+| ----------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
 | cell?       | UiElement           | Replace the column cell with a custom ui element, with the current row as context                       |
 | center?     | boolean             | Optional center aligment                                                                                |
 | compact?    | boolean             | Sets cell padding to 0 |

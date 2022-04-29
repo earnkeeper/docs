@@ -1,8 +1,10 @@
 # Table
 
+Render informtion in a tabular format
+
 ## Example Usage
 
-Click any element in the `Datatable` on this page
+To view a table implementation, click any element in the `Datatable` on this page
 <https://earnkeeper.io/game/splinterlands/marketplace>
 
 ## Supported Properties

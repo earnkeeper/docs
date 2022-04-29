@@ -8,6 +8,10 @@ Display a themed button, and configure its action on click
 
 ## Supported Properties
 
+#### All Properties (Content)
+
+Use the content property to add any EK component as the child of the button. Use for complex button content.
+
 | Name      | Type           | Description                                                                                                                                         |
 | --------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | busyWhen? | string \| Rpc  | Use an RPC to determine when to disable the button and show a busy spinner. Often used with the isBusy RPC.                                         |
@@ -24,10 +28,6 @@ Display a themed button, and configure its action on click
 ## Example
 
 ### TypeScript
-
-#### All Properties (Content)
-
-Use the content property to add any EK component as the child of the button. Use for complex button content.
 
 ```typescript
 Button({
