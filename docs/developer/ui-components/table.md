@@ -1,23 +1,18 @@
 # Table
 
+Display a static table. Rendered as an HTML `<table>` element.
+
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
-| Name        | Type                          | Description                              |
-| ------------| -------------------------     | -----------                              |
-| header?     | (string \| Rpc)[  ]           |  Optional header for the table           |
-| body        | (string \| number \| Rpc)[  ] |  Body for the table UI element           |
-| width?      | (string \| number \| Rpc)[  ] |  Optional table width                    |
+| Name    | Type                         | Description                    |
+| ------- | ---------------------------- | ------------------------------ |
+| header? | string\[] \| Rpc             | The header cells for the table |
+| body    | string\[] \| Rpc             | Body cells for the table       |
 
 ## Examples
-
-### JSON
-
-```json
-```
 
 ### TypeScript
 
 ```javascript
+
 ```

@@ -6,8 +6,6 @@ React datatable with sorting, expandable rows and pagination.
 
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
 | Name                | Type                                       | Description                                                                                                                                                          |
 | ------------------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
 | busyWhen?           | boolean                                    | string                                                                                                                                                               | Rpc |     |
@@ -78,56 +76,6 @@ EarnKeeper does not support all properties of the underlying control, the curren
 | FilterOption | string \| Readonly<{ label: string; query?: string; }> |             |
 
 ## Examples
-
-### JSON
-
-```json
-{
-  "_type": "Datatable",
-  "props": {
-    "data": "$.rentedCritterzDocuments.*",
-    "columns": [
-      {
-        "id": "tokenId",
-        "sortable": true,
-        "value": "$.tokenId",
-        "cell": {
-          "_type": "Link",
-          "props": {
-            "content": {
-              "method": "template",
-              "params": [
-                "https://etherscan.io/token/0x47f75e8dd28df8d6e7c39ccda47026b0dca99043?a={{ tokenId }}",
-                {
-                  "tokenId": "$.tokenId"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "expiresIn",
-        "sortable": true,
-        "value": "$.expiryDate",
-        "format": {
-          "method": "formatTimeToNow",
-          "params": ["$.expiryDate"]
-        }
-      },
-      {
-        "id": "expiryDate",
-        "sortable": true,
-        "value": "$.expiryDate",
-        "format": {
-          "method": "formatDatetime",
-          "params": ["$.expiryDate"]
-        }
-      }
-    ]
-  }
-}
-```
 
 ### TypeScript
 

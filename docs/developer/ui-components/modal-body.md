@@ -1,6 +1,6 @@
 # Modal Body
 
-Used inside a `Modal` to contain body content.
+Display body content inside a `Modal`.
 
 ## Supported Properties
 

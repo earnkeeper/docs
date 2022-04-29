@@ -1,8 +1,8 @@
 # Modal Header
 
-## Supported Properties
+Display footer content inside a `Modal`.
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
+## Supported Properties
 
 | Name           | Type            | Description |
 | -------------- | --------------  | ----------- |
@@ -11,11 +11,6 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 
 ## Examples
-
-### JSON
-
-```json
-```
 
 ### TypeScript
 
