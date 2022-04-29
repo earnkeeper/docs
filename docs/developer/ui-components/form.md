@@ -1,24 +1,22 @@
 # Form
 
+Display a form to the user to prompt for entry. The form value will be stored in client state and sent to the plugin on each state update.
+
+Access it with `event.state.forms["FORM_NAME"]`
+
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
+| Name      | Type          | Description                                                                                                |
+| --------- | ------------- | ---------------------------------------------------------------------------------------------------------- |
+| name      | Rpc \| string | A name for the form, used by your plugin to access form values                                             |
+| children  | UiElement\[]  | The UiElements to render for the form, same as React `children` property. E.g. Input, Select, Button etc.. |
+| onSubmit? | boolean       | Run an RPC when submitting the form                                                                        |
+| schema    | any           | The [JsonSchema](https://json-schema.org/) describing the form value                                       |
 
-| Name         | Type                      | Description                                               |
-| --------     | --------------            | -----------                                               |
-| name         | Rpc \| string             |  Name given to a form UI element                          |
-| children     | UiElement                 | A collection of UI element embeded in the form            |
-| onSumbmit?   | Submit                    | Sets onSubmit behaviour for the form                      |
-| schema       | Record<string, any>       | A collection of records to render in the form             |  
-| multiRecord? | MultiRecordConfig         | TODO Optional paramater which sets multi record configutation |
 ## Examples
-
-### JSON
-
-```json
-```
 
 ### TypeScript
 
 ```javascript
+
 ```

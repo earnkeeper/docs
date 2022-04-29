@@ -1,13 +1,12 @@
 # Badge
 
+Display text or other content surrounded by a [Bootstrap badge](https://getbootstrap.com/docs/4.0/components/badge/).
 
-## Example UI
-
+## Example Usage
 
 ## Supported Properties
 
-| Name       | Type          | Description                                                        |
-| ---------  | -----------   | ------------------------------------------------------------------ |
-| color?     | string        |  Describes the color of the badge                                  |
-| Children   | UiElement[  ] |  Collection of elements that will be shown in the badge             |
-
+| Name     | Type         | Description                                                                                                 |
+| -------- | ------------ | ----------------------------------------------------------------------------------------------------------- |
+| color?   | string       | One of the [bootstrap theme colors](https://getbootstrap.com/docs/5.0/customize/color/), defaults to `None` |
+| children | UiElement\[] | The UiElements to render inside this control, same as React `children` property                             |

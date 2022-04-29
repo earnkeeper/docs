@@ -1,30 +1,22 @@
 # Icon
 
-CoreUI Icon Set
-
-<https://icons.coreui.io/icons/>
+Display an icon, EarnKeeper uses the [FeatherIcons](https://feathericons.com/) and [CoreUiIcons](https://icons.coreui.io/icons/) free sets.
 
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
-| Name        | Type   | Description          |
-| ----------- | ------ | -------------------- |
-| name\*      | string | The name of the icon |
-| size?       | 'sm' \|   'lg' \| 'xl'  \|  'xxl'  \| '3xl'  \| '4xl'  \|  '5xl'   \|   '6xl'   \|  '7xl'  \|   '8xl'   \|   '9xl'  \|  Rpc; | Optional icon size, the size can be one of those specified in the type section of this parameter|
-
+| Name   | Type          | Description                                                                                                                       |
+| ------ | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| name\* | string        | The icon show, should be either a [FeatherIcons](https://feathericons.com/) or [CoreUiIcons](https://icons.coreui.io/icons/) name |
+| size?  | string \| Rpc | Icon size, one of `sm`, `lg`, `xl`, `xxl`, @dennis                                                                                |
 
 ## Examples
 
-### JSON
-
-```json
-
-```
-
 ### TypeScript
 
-```javascript
-
+```typescript
+Icon({
+  className: "filled-star",
+  name: "star",
+  size: "sm",
+});
 ```
-

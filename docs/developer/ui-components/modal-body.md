@@ -1,21 +1,17 @@
 # Modal Body
 
+Used inside a `Modal` to contain body content.
+
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
-| Name     | Type             | Description |
-| -------- | --------------   | ----------- |
-| children | UiElement\[  ]   |  A collection of UI elements to render in the modal           |
+| Name     | Type         | Description                                                                     |
+| -------- | ------------ | ------------------------------------------------------------------------------- |
+| children | UiElement\[] | The UiElements to render inside this control, same as React `children` property |
 
 ## Examples
-
-### JSON
-
-```json
-```
 
 ### TypeScript
 
 ```javascript
+
 ```

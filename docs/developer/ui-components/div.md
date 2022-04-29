@@ -1,21 +1,17 @@
 # Div
 
+Wrap components in an html div.
+
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
-| Name     | Type           | Description                                                         |
-| -------- | -------------- | -----------                                                         |
-| children | UiElement\[  ] | A collection of UI elements to render in a div container             |
+| Name     | Type         | Description                                                                     |
+| -------- | ------------ | ------------------------------------------------------------------------------- |
+| children | UiElement\[] | The UiElements to render inside this control, same as React `children` property |
 
 ## Examples
-
-### JSON
-
-```json
-```
 
 ### TypeScript
 
 ```javascript
+
 ```

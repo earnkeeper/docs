@@ -1,25 +1,21 @@
 # Image
 
+Display an image. Renders as html `<image>` tag
+
 ## Supported Properties
 
-EarnKeeper does not support all properties of the underlying control, the currently supported properties are below.
-
-| Name     | Type                          | Description                                            |
-| -------- | ---------------------------   | -----------                                            |
-| rounded? | Rpc \| boolean               | Optional parameter to render image with rounded edges TODO |
-| src      | UiElement \| Rpc \| Primitive | Source of the image to render                        |
-| size?    | string \| number \| Rpc       | Optional image size                                    |
-| height?  | string \| number \| Rpc       | Optional image height                                  |
-| width?   | string \| number \| Rpc       | Optional image width                                   |
+| Name     | Type                    | Description                                                                             |
+| -------- | ----------------------- | --------------------------------------------------------------------------------------- |
+| height?  | string \| number \| Rpc | Height of the image in pixels, or css string                                            |
+| rounded? | Rpc \| boolean          | Set to true to round the borders of the image into a circle                             |
+| size?    | string \| number \| Rpc | Size of image in pixels or css string. This sets `height` and `width` to the same value |
+| src      | string \| Rpc           | The url to the image                                                                    |
+| width?   | string \| number \| Rpc | Width of the image in pixels, or css string                                             |
 
 ## Examples
-
-### JSON
-
-```json
-```
 
 ### TypeScript
 
 ```javascript
+
 ```
