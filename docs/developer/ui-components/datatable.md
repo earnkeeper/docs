@@ -69,12 +69,12 @@ EarnKeeper does not support all properties of the underlying control, the curren
 
 | Name                 | Type                      |Description                                     |
 | -------------------- | ------------------------- | ---------------------------------------------- |
-| DatatableView        | 'grid' | 'column'         |    TODO                                            |
+| DatatableView        | 'grid' \| 'column'         |    TODO                                            |
 
 ### Filter Options
 | Name                 | Type                                                    |Description                                     |
 | -------------------- | ------------------------------------------------------- | ---------------------------------------------- |
-| FilterOption         | string| Readonly<{ label: string; query?: string; }>  |                                                |
+| FilterOption         | string \| Readonly<{ label: string; query?: string; }>  |                                                |
 ## Examples
 
 ### JSON
