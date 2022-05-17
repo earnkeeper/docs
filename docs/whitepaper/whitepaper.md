@@ -2,38 +2,25 @@
 
 ## Project Introduction
 
-The open source Play to Earn GameFi analytics platform.
+Stop guessing, start earning!
 
-We started [EarnKeeper.io](https://earnkeeper.io) in September 2021 to provide unbiased, detailed and relevant analysis of projects in the [Play 2 Earn](https://wiki.rugdoc.io/docs/play-to-earn-games-p2e/) space.
+EarnKeeper.io is the leading Play to Earn GameFi Analytics platform.
 
-Our first game was [CryptoZoon](https://cryptozoon.earnkeeper.io/) on the BSC chain. We were players ourselves, and had a deep understanding of the economic conditions of the game, and which metrics would be most relevant for players.
+With detailed analysis for their favourite Play to Earn games we enable players and investors to maximise their returns. 
+Wondering which game is currently the most lucrative one? Or what items give you the best returns? Look no further. Our in-house and 3rd party developers built the tools to answer questions like this.
 
-We had an amazing response that we were not prepared for. The site received 200,000 unique visitors, with a daily active user count of 5,000 users. Our [discord](https://discord.gg/RHnnWBAkes) (1,100 members) and [twitter](https://twitter.com/earnkeeper) (6,000 followers) are continuing to grow.
+Developers from all over the world are invited to join and build within the EarnKeeper.io ecosystem. Got a great idea that would help players in a game? Great!
 
-We expanded into other games, but realised that some key features are required for this platform to be sustainable in the long term.
+With our toolbox you are already almost done. Develop with the latest tech and publish it on EarnKeeper.io.
 
-- Developers MUST play the game and be invested to provide relevant analytics
-- The platform MUST provide very fast turn around (~1 day) to react to changes in the game economies and meta
-
-These are lofty goals, and in our opinion, not feasible for a centralised entity to provide. So we have chosen to open source our analytics code, and create a platform to engage the developer and gamer community to provide high quality metrics and give back to the developers for their work.
-We have created the Earn Keeper Plugin System, described in this white-paper and in our online documentation.
-
-Using this system developers can:
-
-- Reduce time to market to display GameFi analytics
-- Be paid monthly for their effort if their plugin is popular
-- Be paid up front through bounties if they develop in demand metrics
-
-In the future, we will look to improve the plugin system to reduce the development experience needed to provide a plugin, and providing hosting
-assistance to reduce the complexity and cost of providing the data.
-
----
+Tools are hard to monetize. Not so on EarnKeeper.io. We will help you distribute and make money with your developed tools.
 
 ## The Problem to Solve
 
 Play to Earn games provide a way for users to earn a living, by exchanging effort and time for reward. Each game is different, the method to earn rewards is different and their economy will evolve in different ways. A generic analysis is not enough to determine return on initial investment into Play to Earn games.
 
 The space also comes with risk, new users to the space expecting a return generally do not understand the risk of becoming a bag holder.
+
 Developers who play the games currently create their own analysis pages, which they use to track their earning, and often share these tools with the community. They will include a donate button or advertisements to help fund the further development of the page.
 
 We did this ourselves with <https://cryptozoon.earnkeeper.io>, and here are the features that were most popular with our users:
@@ -70,6 +57,8 @@ A detailed view of your current position, including :
 - Their earnings to date, and whether they have paid themselves off
 - Their current market value
 
+---
+
 ### Global Game Data
 
 ![  ](/img/whitepaper/3.png)
@@ -100,7 +89,7 @@ Users of the EarnKeeper site will continue to receive the metrics we provided fo
 
 ![  ](/img/whitepaper/4.png)
 
-All plugins will use a freemium model, where most metrics are shown publicly for free, and some metrics are available to users who pay a monthly subscription, or hold a Lifetime Access NFT.
+All plugins use a freemium model, where most metrics are shown publicly for free, and some metrics are available to users who pay a monthly subscription, or hold a Lifetime Access NFT.
 
 Benefits for the user:
 
@@ -137,27 +126,6 @@ The goals of this development effort are:
 - Build a community of game players and developers to improve metrics and discuss qualitative game strategies
 - Create a sustainable flow of funds from the site users to the analytics developers to keep analytics projects alive
 
-The system architecture is as follows:
-
-![  ](/img/whitepaper/5.png)
-
-Using [Yeoman](https://yeoman.io/) and [Werf](https://werf.io/), we provide a fully scaffolded application which is ready to be deployed to a fresh Digital Ocean (or any other provider) Kubernetes instance.
-
-The scaffolded application uses the [NestJs](https://nestjs.com/) framework, and is horizontally scalable using Redis and Mongo.
-
-The SDK currently provides:
-
-- Built in rate limiting to data providers using their stated limits
-  - Coingecko
-  - Moralis
-  - RPC providers through ethersjs
-  - Opensea
-  - More to come...
-- Caching of response data for performance
-- Websocket event handling and distribution to queues for processing
-- The EarnKeeper Protocol implementation to parse events to and from the client
-- All plugins we develop for EarnKeeper are in the public domain and can be used as examples for new plugins
-
 Benefits for Developers:
 
 ✅ &nbsp; Use tried and tested data connections with examples from existing projects
@@ -182,31 +150,13 @@ Further Reading:
 
 ---
 
-## For Supporters - The NFT
-
-![  ](/img/whitepaper/6.png)
-
-To raise funds to speed up development of features, plugins and the developer community, we are offering Lifetime Access NFTs to our users.
-
-Benefits of owning an NFT include:
-
-✅ &nbsp; Lifetime access to the premium features of the site
-
-✅ &nbsp; Whitelist spots and NFT airdrops from our Play to Earn game partners
-
-✅ &nbsp; Access to the Lifetime Membership discord group for direct communication with the EarnKeeper team and developers, to plan future games and framework
-
-Total supply and price for the NFTs will be announced in Q2 2022.
-
----
-
 ## Business Model
 
 Revenue will be generated through a freemium model.
 
 - Free users of the site will have access to most metrics on all plugins and community support
-- Premium users of the site will pay a $29 fee per month, will have access to all metrics as well as premium support from the EarnKeeper team
-- Payment will be made by wallet transfer on the BSC, Solana or Polygon chains.
+- Premium users of the site will pay a low subscription fee per month, and will enjoy access to all metrics as well as premium support from the EarnKeeper team
+- Payment will be made by wallet transfer on the BSC or Polygon chains.
 
 The CryptoZoon tracker attracted **17,300** unique returning visitors to the site, **200,000** visitors in total.
 
@@ -251,36 +201,56 @@ Our roadmap for 2022 is below, with some big wins under our belt already.
 
 ### Jan 2022
 
-✅ &nbsp; Client side front end application https://earnkeeper.io
-
-✅ &nbsp; Default plugin: Portfolio
-
-✅ &nbsp; Earn Keeper Javascript SDK https://github.com/earnkeeper/ekp-sdk-nestjs
-
-✅ &nbsp; Developer documentation https://developer.earnkeeper.io
-
-✅ &nbsp; Subscription Framework
-
-✅ &nbsp; ETH, BSC and Polygon integration
+- ✅ &nbsp; Client side front end application https://earnkeeper.io
+- ✅ &nbsp; Subscription Framework
+- ✅ &nbsp; ETH, BSC and Polygon integration
 
 ### Feb 2022
 
-✅ &nbsp; Seed funding complete
-
-✅ &nbsp; Plugin Marketplace
-
-✅ &nbsp; Game Partnerships (Honey Wasp, Little Heroes, Armed Beasts)
-
-✅ &nbsp; Four tech demo plugins on the system (Critterz, Bomb Crypto, Cryptozoon, Splinterlands)
+- ✅ &nbsp; Seed funding complete
+- ✅ &nbsp; Tool Marketplace
+- ✅ &nbsp; First Game Partnerships (Honey Wasp, Little Heroes, Armed Beasts)
+- ✅ &nbsp; Four tech demo plugins on the system (Critterz, Bomb Crypto, Cryptozoon, Splinterlands)
 
 ### Mar 2022
 
-- First production plugin on the platform (Splinterlands)
-- Third Party developer drive, documentation and training
-- Hiring (Marketing and Development)
-- EarnKeeper hosting platform
+- ✅ &nbsp; First production plugin on the platform (Splinterlands)
+- ✅ &nbsp; Javascript SDK, documentation and training
+- ✅ &nbsp; Hiring (Marketing and Development)
 
-### April 2022
+### Apr 2022
 
-- Lifetime Member NFT
-- Revenue share smart contract for third party developers
+- ✅ &nbsp; Game Support: Thetan Arena
+- ✅ &nbsp; Full Development Team Hired
+
+### May 2022
+
+- ✅ &nbsp; Global marketplace volume tracking, keep track of the most active collections
+- ✅ &nbsp; Discord notification support, catch the best deals in real time
+- ✅ &nbsp; Game Support: Metabomb
+- ⏱ &nbsp; Game Support: Pegaxy
+- ⏱ &nbsp; Game Support: Mines of Dalarnia
+- 👀 &nbsp; Game Support: https://discord.gg/RHnnWBAkes
+
+### Jun 2022
+
+- Game Support: 4 new games, every month
+- Player tracking and inventory management for guilds
+- Python SDK, documentation and training
+
+### Jul 2022
+
+- Game Support: 4 new games, every month
+- Game Partnership and whitelist announcements
+- True Alpha private discord, for the most up to date realtime analysis and inside information
+
+### Aug 2022
+
+- Game Support: 4 new games, every month
+- The True Alpha DAO, for deciding platform direction and game support
+- Opensea Support
+
+### Sept 2022
+
+- Game Support: 4 new games, every month
+- Wax, Avalanche and Solana support
