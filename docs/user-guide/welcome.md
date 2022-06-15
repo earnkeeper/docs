@@ -6,11 +6,11 @@ sidebar_position: 1
 
 Welcome to Earn Keeper!
 
-Earn Keeper is a place for gamers and developers to meet, share data and gain data driven insight into today's Play to Earn games.
+Earn Keeper is on a mission to make **Research** easier for **Play to Earn** gamers.
 
-Users have access to a range of relevant metrics, made by gamers, displayed in simple and easy to use tables and charts.
+Our users have access to a range of important metrics, curated by gamers, displayed in simple and easy to use tables and charts.
 
-Developers benefit from a great experience through our sdk and hosting, and share revenue when their plugin gets popular.
+We make it easy to discover new games, and then dive deeper to get the info you need before spending your hard earned money.
 
 ### Quick Start
 
@@ -20,9 +20,7 @@ Developers benefit from a great experience through our sdk and hosting, and shar
 
 [Jump on our discord here](https://discord.gg/RHnnWBAkes), the community is here to help!
 
-If you are a Premium Subscriber, post your question in the `#subscribers` channel, we will get back to you ASAP.
-
-Subscribed and not seeing the `#subscribers` channel? [Follow the steps here to link your wallet to discord](./subscribe/link-discord).
+If you are a True Alpha Pass Holder, post your question in the `#premium-support` channel, we will get back to you ASAP.
 
 ### Developer?
 

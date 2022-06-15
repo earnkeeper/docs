@@ -10,82 +10,107 @@ New to Earn Keeper and want a quick intro? You have landed in the right place!
 
 Browse to our site @ <https://earnkeeper.io>
 
+### Discover the trending games right now
 
-Admire the cool birds background we found  🦤.
+Our home page gives you immediate access to the currently trending games in three categories; Social Activity, New User Acquisition and Token Volume.
 
-### Browse Tool Market
+By tracking changes in these key areas, our lists do not get swamped by the big players in industry, up and coming games have a chance to rise to the top too! Often the opportunities are found in the best new games to hit the space.
 
-Click the Tool Market image in the middle of the page. 
+More on how to use these to discover gems below...
 
-This one 👇
+### Today's Social Activity
 
-![Tool Market Page](/img/user-guide/tool-market-page.svg)
+Play to Earn games thrive with a healthy community, we scan the social accounts of hundreds of games to rank them on number of new followers gained and more. Our home page shows you the games that are collecting the most new Twitter followers at the moment.
 
-Here are all the plugins we have on the platform! Depending on when you are reading this, there might be a few of them or many hundreds!
+![Image](/img/user-guide/new/home-social-activity.png)
 
-Want to read more about the Tool Market? [Read about it here](././tool-market/plugin-list.md).
+Click or tap on a game in the list to dive deeper into the game details, more on this info later.
 
-### Install a Plugin
+Click the View All link to view our full game list. Sort the full list by total followers, new followers and more.
 
-Use the search bar to search for Splinterlands.
+![Image](/img/user-guide/new/social-tab.png)
 
-Click the Splinterlands title of the plugin to install it
+Click on any game in the full list to dive deeper and learn more about the game.
 
-![Install from Tool Market](/img/user-guide/install-from-tool-market.svg)
+### Today's New Users
 
-Read the popup, important information there, and connect your wallet
+Gamefi projects rely on a steady stream of new users to keep a healthy economy, we scan the blockchain contracts of hundreds of games to rank them on number of new users that have entered the game for the first time. The list on our home page shows the games with the most new users today, great for finding games that users are entering for the first time.
 
-![Install Wallet Prompt](/img/user-guide/install-wallet-prompt.svg)
+![Image](/img/user-guide/new/home-new-users.png)
 
-Wait for the plugin to be installed, it shouldn't take long.
+Click or tap on a game in the list to dive deeper into the game details.
 
-Now click the Splinterlands plugin title again to be taken to the Splinterlands game page
+The chart shows the last 7 days of activity, to see how the game has been performing recently.
 
-### Explore a Game
+Click the View All link to view our full game list. Sort the full list by new users today, this week and more.
 
-You are looking at the live Splinterlands marketplace, showing the cheapest splinterlands cards at the top.
+![Image](/img/user-guide/new/activity-tab.png)
 
-![Splinterlands Market](/img/user-guide/splinterlands-market.png)
+As always, click on any game in the full list to dive deeper and learn more about the game.
 
-Click the Win Rate column (twice) to change the order of the table, with the cards with the best win rate at the top. Some of them may be expensive!
+### Today's Token Volume
 
-Click the Grid icon to view the list in Grid View.
+Active tokens indicate an active economy, checking token volume rather than token price gives you better insight, we scan the token contracts of hundreds of games to discover tokens that have recently become active. The list on our home page shows the games with the highest token activity in U.S. dollar terms today, great for finding games that have seen recent activity.
 
-![Grid Table Select](/img/user-guide/grid-table-select.svg)
+![Image](/img/user-guide/new/home-token-volume.png)
 
-![Splinterlands Market Grid](/img/user-guide/splinterlands-market-grid.png)
+Click or tap on a game in the list to dive deeper into the game details.
 
-Click the Splinterlands menu bar at the top (or under the hamburger menu if you are on mobile)
+The chart shows the last 7 days of activity, to see how the game has been performing recently.
 
-![Splinterlands Menu](/img/user-guide/splinterlands-menu.png)
+Click the View All link to view our full game list. Sort the full list by token volume today, this week and more.
 
-Click Battle Planner, this page lets you enter the details of your next battle, and plan which deck you will use
+![Image](/img/user-guide/new/volume-tab.png)
 
-Leave the Player Name blank for now, change Mana Cap to 20 and click Save
+As always, click on any game in the full list to dive deeper and learn more about the game.
 
-Wait for the results to update, and presto! Here are the decks that have the best win rates for 20 Mana Cap battles in all leagues
+### Game Information Pages
 
-It should look like this 👇
+By clicking on any game in our lists, you can read more detailed information on the game. We aggregate as many sources as we can find to get you the info you need to enter a game. 
 
-![Splinterlands Battle Planner](/img/user-guide/splinterlands-battle-planner.png)
+![Image](/img/user-guide/new/game-info.png)
 
-Click on a row to view the cards you should use in your battle.
+Including:
 
-![Splinterlands Battle Planner Team](/img/user-guide/splinterlands-battle-planner-team.png)
+- ☑️ Link to the official game website
+- ☑️ Link to all the games social channels, and their current member count, when available
+- ☑️ Twitter banner image
+- ☑️ Game description and short info
+- ☑️ 7 day Social activity, become True Alpha for more historic data
+- ☑️ 7 day New Users activity, become True Alpha for more historic data
+- ☑️ 7 day Token Volume activity, become True Alpha for more historic data
+- ☑️ Custom earning deep dives, when available
+- ☑️ Project Roadmap, no need to scan hundreds of whitepapers
+- ☑️ Youtube media about the game, let us do the search for you!
+- ☑️ And more as we expand our integrations...
 
-If you would like to filter the list to only show the decks you have the cards to fill, then fill in your user name and click Save again
+### Deep Dives
 
-### Subscribe for More
+We dive deep into the most popular and profitable Play to Earn games, to provide real time data on how to earn. Through custom development and integration we are able to provide more detailed information on how much it will cost to enter a game, and what you can expect to earn.
 
-Don't like the pesky advert at the top of the page? 
+![Image](/img/user-guide/new/home-deep-dives.png)
 
-Want to use more than the last 1 day of data for your Battle Planner? 
+Find out how much it costs to buy a Thetan Arena character, and how much your return on investment will be once you have finished all the matches for that character.
 
-Click the Account link in the menu, and follow the instructions to subscribe.
+Find out how much you can earn daily, and how much your purchase price will be for a Metabomb character.
+
+And much more... We are adding new deep dives into games every week, join our discord to get involved in deciding where we cast our deep dive eyes!
+
+Click on any tile to navigate to the dedicated deep dive pages for that game, where you can get even more game specific information.
+
+### Join True Alpha for more
+
+Ready to take the next step?
+
+Want to remove the adverts on the site?
+
+Want to see full history of all of our metrics and deep dives?
+
+Check out our True Alpha benefits here: https://earnkeeper.io/true-alpha
 
 ### Join the community
 
-Want to get involved in the community and talk about your favourite game? [Join our discord here](https://discord.gg/92EMAWVrrn)
+Want to get involved in the community, talk about your favourite games and dive depeer? [Join our discord here](https://discord.gg/92EMAWVrrn)
 
 See you there!
 
