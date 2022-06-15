@@ -80,8 +80,6 @@ Including:
 - ☑️ 7 day New Users activity, become True Alpha for more historic data
 - ☑️ 7 day Token Volume activity, become True Alpha for more historic data
 - ☑️ Custom earning deep dives, when available
-- ☑️ Project Roadmap, no need to scan hundreds of whitepapers
-- ☑️ Youtube media about the game, let us do the search for you!
 - ☑️ And more as we expand our integrations...
 
 ### Deep Dives
