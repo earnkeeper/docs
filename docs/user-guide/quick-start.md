@@ -66,7 +66,7 @@ As always, click on any game in the full list to dive deeper and learn more abou
 
 ### Game Information Pages
 
-By clicking on any game in our lists, you can read more detailed information on the game. We aggregate as many sources as we can find to get you the info you need to enter a game. 
+By clicking on any game in our lists, you can read more detailed information on any game we track. We aggregate as many sources as we can find to get you the info you need to enter a game. 
 
 ![Image](/img/user-guide/new/game-info.png)
 

@@ -50,12 +50,6 @@ const config = {
           },
           {
             type: "doc",
-            docId: "whitepaper/whitepaper",
-            position: "left",
-            label: "Whitepaper",
-          },
-          {
-            type: "doc",
             docId: "developer/welcome",
             position: "left",
             label: "Developer",

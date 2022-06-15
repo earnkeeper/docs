@@ -26,6 +26,6 @@ If you are a True Alpha Pass Holder, post your question in the `#premium-support
 
 Are you a developer and want to be involved? 
 
-Check out our [developer documentation](../developer/welcome.md), and our [whitepaper](https://docs.earnkeeper.io/whitepaper) for what we are all about.
+Check out our [developer documentation](../developer/welcome.md).
 
 Join the `#dev-talk` channel on our [discord](https://discord.gg/RHnnWBAkes) and get in touch!
