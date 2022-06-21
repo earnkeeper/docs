@@ -1,6 +1,7 @@
 # White Paper
 
 ## Project Introduction
+---
 
 EarnKeeper, the leading Play and Earn analytics platform. We are on a mission to make Research easier for Play and Earn gamers.
 
@@ -9,6 +10,7 @@ Discover the most popular and best earners in the space, deep dive with relevant
 Players should know whether they are paying to play or playing to earn, it is not always obvious, and changes constantly. We have built a platform that reacts quickly to changes, allowing us to get you the information you need to stay safe and maximise your earnings.
 
 ## The Problem to Solve
+---
 
 Play to Earn games provide a way for users to earn a living, by exchanging effort and time for reward. Each game is different, the method to earn rewards is different and their economy will evolve in different ways. A generic analysis is not enough to determine return on initial investment into Play to Earn games.
 
@@ -20,9 +22,8 @@ We enable this for players through our powerful open source framework, with deep
 
 The framework is flexible enough to provide information on the economic health of hundreds of games, while still being able to deep dive into individual games to give exact information on the costs and potential earnings of the game.
 
----
-
 ## The Game Discovery Platform
+---
 
 Find the most popular, healthiest and highest earning games in the space.
 
@@ -76,9 +77,8 @@ When available, powerful deep dives into the game to truly understand the cost o
 
 <!-- TODO image -->
 
----
-
 ## Game Deep Dives
+---
 
 Gamers need rich information to truly understand their cost to play a game, and forecast how much can be earned. We integrate to game contracts directly to do the calculations for you, enhance game marketplaces with expected earnings and more. Our full list of deep integrations can be found on our deep dives page.
 
@@ -102,9 +102,35 @@ Become a pro nft trader, with floor prices, full sale history, and maximum earni
 
 ![Image](/img/whitepaper/12.png)
 
+## The True Alpha NFT
 ---
 
+We are proud to announce our True Alpha Pass NFT.
+
+We have been working hard behind the scenes to bring even more value to our users. From full historic data access to monthly game NFT air drops, the True Alpha Pass unlocks the full Earn Keeper experience.
+
+Read about the full list of benefits below, and watch this space as we will be announcing the mint date, price and token supply soon!
+
+![Image](/img/whitepaper/13.png)
+
+Lifetime Site Access
+- ✅ Completely advert free experience
+- ✅ Full Historical data for all games
+- ✅ Export Data to excel
+- ✅ Personalized alerts for any metrics
+
+Access To Alpha
+- ✅ Exclusive Discord Channel with Daily Game Analysis and Insights
+
+Rewards
+- ✅ Regular NFT Drops from our vetted Game Partners
+
+Dedicated Research and Tooling
+- ✅  Deep Dive into your game of choice, with dedicated research from the team
+
+
 ## Roadmap
+---
 
 Our roadmap for 2022 is below, with some big wins under our belt already.
 
