@@ -176,13 +176,14 @@ Our roadmap for 2022 is below, with some big wins under our belt already.
 - Game Partnership and whitelist announcements
 - True Alpha private discord, for the most up to date realtime analysis and inside information
 - True Alpha NFT Launch
+- Monthly active users and user retention for all games
 
 ### Aug 2022
 
 - Personalized alerts for changes in game economy
 - Full metric history and advanced filtering support
 - True Alpha whitelist spots and giveaways
-- NFT Marketplace integration, Opensea, Tofu NFT, NFTTrade and more
+- NFT Marketplace integration for analytics, Opensea, Tofu NFT, NFTTrade and more
 
 ### Sept 2022
 
