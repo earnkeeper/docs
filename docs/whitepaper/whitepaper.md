@@ -67,7 +67,7 @@ Token price, social counts and game description.
 
 Media, the most relevant Youtube videos, showing you how to play, and earn in the game.
 
-<!-- TODO image -->
+![Image](/img/whitepaper/7.png)
 
 Volumes and Stats, deep analytics on the most important statistics affecting the game. True Alpha Pass NFT holders get the full picture, with full history of all metrics and powerful controls to analyse the game data. Perfect for power users and professionals in the space.
 
@@ -75,7 +75,7 @@ Volumes and Stats, deep analytics on the most important statistics affecting the
 
 When available, powerful deep dives into the game to truly understand the cost of entry into the game and expected earning power.
 
-<!-- TODO image -->
+![Image](/img/whitepaper/9.png)
 
 ## Game Deep Dives
 ---
@@ -173,9 +173,10 @@ Our roadmap for 2022 is below, with some big wins under our belt already.
 
 ### Jul 2022
 
-- ✅ Game Partnership and whitelist announcements
+- ⏳ Game Partnership and whitelist announcements
 - ⏳ True Alpha private discord, for the most up to date realtime analysis and inside information
 - ⏳ True Alpha NFT Launch
+
 
 ### Aug - Sept 2022
 
@@ -188,3 +189,4 @@ Our roadmap for 2022 is below, with some big wins under our belt already.
 
 - ⏳ Deep Dives: 2 new deep dives, every month, decided by NFT holders
 - ⏳ Guild partnerships, custom game integration to enhance guild profitability
+- ⏳ Monthly active users and user retention for all games
