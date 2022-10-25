@@ -163,28 +163,28 @@ Our roadmap for 2022 is below, with some big wins under our belt already.
 - ✅ &nbsp; Global marketplace volume tracking, keep track of the most active collections
 - ✅ &nbsp; Discord notification support, catch the best deals in real time
 - ✅ &nbsp; Deep Dive: Metabomb
-- ⏱ &nbsp; Deep Dive: Pegaxy
+- ❌ &nbsp; Deep Dive: Pegaxy
 - ✅ &nbsp; Deep Dive: Mines of Dalarnia
 
 ### Jun 2022
 
 - ✅ Game Discovery Platform: social activity, new users, token volumes and more
-- ⏱ Marketing and outreach
+- ✅ Marketing and outreach
 
 ### Jul 2022
 
-- Game Partnership and whitelist announcements
-- True Alpha private discord, for the most up to date realtime analysis and inside information
-- True Alpha NFT Launch
+- ✅ Game Partnership and whitelist announcements
+- ⏳ True Alpha private discord, for the most up to date realtime analysis and inside information
+- ⏳ True Alpha NFT Launch
 
-### Aug 2022
+### Aug - Sept 2022
 
-- Personalized alerts for changes in game economy
-- Full metric history and advanced filtering support
-- True Alpha whitelist spots and giveaways
-- NFT Marketplace integration, Opensea, Tofu NFT, NFTTrade and more
+- ✅ Personalized alerts for changes in game economy
+- ✅ Full metric history and advanced filtering support
+- ⏳ True Alpha whitelist spots and giveaways
+- ⏳ NFT Marketplace integration, Opensea, Tofu NFT, NFTTrade and more
 
-### Sept 2022
+### Oct - Dec 2022
 
-- Deep Dives: 2 new deep dives, every month, decided by NFT holders
-- Guild partnerships, custom game integration to enhance guild profitability
+- ⏳ Deep Dives: 2 new deep dives, every month, decided by NFT holders
+- ⏳ Guild partnerships, custom game integration to enhance guild profitability
